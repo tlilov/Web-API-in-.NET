@@ -1,7 +1,7 @@
 ﻿using System;
-using PHE.SL.Interfaces;
+using SL.Interfaces;
 
-namespace PHE.Web.Api.Client.Services
+namespace Web.Api.Client.Services
 {
     public class EmailService : IEmailService
 
