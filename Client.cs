@@ -25,7 +25,7 @@ namespace WebApplication7
              }
         catch (Exception ex)
             {
-                string strMsg = string.Format("PHEProfileSync.NET Thread {0} failed to create Bronto contact {1}:{2} {3}", m_strCompany, email, ex.Message, ex.StackTrace);
+                string strMsg = string.Format("ProfileSync.NET Thread {0} failed to create Bronto contact {1}:{2} {3}", company, email, ex.Message, ex.StackTrace);
                 if (ProfileSyncService.Debug)
                 {
                     Console.WriteLine(strMsg);
