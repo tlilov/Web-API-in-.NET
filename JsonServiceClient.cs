@@ -5,9 +5,9 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
-using PHE.SL.Interfaces;
+using SL.Interfaces;
 
-namespace PHE.Web.Api.Client.Services
+namespace Web.Api.Client.Services
 {
     internal class JsonServiceClient
     {
